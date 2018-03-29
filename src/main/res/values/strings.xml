@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">welcome</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Gift Recommendation</string>
+    <string name="slide_1_desc">The easiest way to find gifts that suits your need!</string>
+
+    <string name="slide_2_title">Gift Search</string>
+    <string name="slide_2_desc">Find the gift by occasion!</string>
+
+
+    <string name="slide_3_title">Add Reminder</string>
+    <string name="slide_3_desc">Add a reminder to never miss a special occasion</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+</resources>
