@@ -1003,6 +1003,15 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+        else  if ((OccVal.equalsIgnoreCase("Eid_Adha") || OccVal.equalsIgnoreCase("Eid_Fitr"))
+                && (relVal.equalsIgnoreCase("Father") || relVal.equalsIgnoreCase("Mother")) &&
+                (GenVal.equalsIgnoreCase("Female") || GenVal.equalsIgnoreCase("Male"))
+                && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
+
+            Toast.makeText(this, "The person is probably be above 20.\n\nTry again!", Toast.LENGTH_LONG).show();
+        }
 
 
         // 50-100 (Need activity) -> All FeMale, Age: 20-30 and 30-50
@@ -1225,7 +1234,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Friend") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("Female")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("50-100")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+        || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "For this age, Money is a traditional gift.", Toast.LENGTH_LONG).show();
 
@@ -1237,7 +1247,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Friend") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("Male")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("50-100")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "Gender can't be Male", Toast.LENGTH_LONG).show();
 
@@ -1249,7 +1260,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Son") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("Male")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("50-100")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "For this age, Money is a traditional gift.", Toast.LENGTH_LONG).show();
 
@@ -1261,7 +1273,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Brother") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("FeMale")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("50-100")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "Gender can't be FeMale", Toast.LENGTH_LONG).show();
 
@@ -1273,7 +1286,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Friend") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("Female")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("100-300")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "For this age, Money is a traditional gift.", Toast.LENGTH_LONG).show();
 
@@ -1285,7 +1299,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Friend") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("Male")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("100-300")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "Gender can't be Male", Toast.LENGTH_LONG).show();
 
@@ -1297,7 +1312,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Son") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("Male")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("100-300")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "For this age, Money is a traditional gift.", Toast.LENGTH_LONG).show();
 
@@ -1309,7 +1325,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Brother") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("FeMale")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("100-300")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "Gender can't be FeMale", Toast.LENGTH_LONG).show();
 
@@ -1321,7 +1338,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Friend") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("Female")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("300-500")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "For this age, Money is a traditional gift.", Toast.LENGTH_LONG).show();
 
@@ -1333,7 +1351,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Friend") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("Male")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("300-500")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "Gender can't be Male", Toast.LENGTH_LONG).show();
 
@@ -1345,7 +1364,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Son") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("Male")
                 && (AgeVal.equalsIgnoreCase("50-80") || AgeVal.equalsIgnoreCase("80-100"))
-                && PrVal.equalsIgnoreCase("300-500")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "For this age, Money is a traditional gift.", Toast.LENGTH_LONG).show();
 
@@ -1357,7 +1377,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Brother") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("FeMale")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("300-500")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "Gender can't be FeMale", Toast.LENGTH_LONG).show();
 
@@ -1370,7 +1391,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Friend") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("Female")
                 && (AgeVal.equalsIgnoreCase("50-80") || AgeVal.equalsIgnoreCase("80-100"))
-                && PrVal.equalsIgnoreCase("500-1000+")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "For this age, Money is a traditional gift.", Toast.LENGTH_LONG).show();
 
@@ -1382,7 +1404,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Friend") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("Male")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("500-1000+")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "Gender can't be Male", Toast.LENGTH_LONG).show();
 
@@ -1394,7 +1417,8 @@ public class MainActivity extends AppCompatActivity {
                 || relVal.equalsIgnoreCase("Son") || relVal.equalsIgnoreCase("Wife/Love")) &&
                 GenVal.equalsIgnoreCase("Male")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("500-1000+")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "For this age, Money is a traditional gift.", Toast.LENGTH_LONG).show();
 
@@ -1404,11 +1428,15 @@ public class MainActivity extends AppCompatActivity {
                 && (relVal.equalsIgnoreCase("Father")
                 || relVal.equalsIgnoreCase("Son") || relVal.equalsIgnoreCase("Friend")
                 || relVal.equalsIgnoreCase("Brother") || relVal.equalsIgnoreCase("Wife/Love")) &&
-                GenVal.equalsIgnoreCase("FeMale")
+                GenVal.equalsIgnoreCase("Female")
                 && (AgeVal.equalsIgnoreCase("1-10") || AgeVal.equalsIgnoreCase("10-20"))
-                && PrVal.equalsIgnoreCase("500-1000+")) {
+                && (PrVal.equalsIgnoreCase("50-100") || PrVal.equalsIgnoreCase("100-300")
+                || PrVal.equalsIgnoreCase("300-500") || PrVal.equalsIgnoreCase("500-1000+"))) {
 
             Toast.makeText(this, "Gender can't be FeMale", Toast.LENGTH_LONG).show();
         }
+
+
+
     }
 }
