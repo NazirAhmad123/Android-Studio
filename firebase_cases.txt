@@ -8,79 +8,79 @@
 
 2. All cases for Male and Female, occasion graduation, age between 20-30 and 30-50
 
-// Case 1. Price: 50-100, (Need activity) -> All Male, Age: 20-30 and 30-50
-// Case 2. Price: 50-100, (Need activity) -> All Female, Age: 20-30 and 30-50
+// Case 5. Price: 50-100, (Need activity) -> All Male, Age: 20-30 and 30-50
+// Case 6. Price: 50-100, (Need activity) -> All Female, Age: 20-30 and 30-50
 
-// Case 3. Price: 100-300, (Need activity) -> All Male, Age: 20-30 and 30-50
-// Case 4. Price: 100-300, (Need activity) -> All Female, Age: 20-30 and 30-50
-
-
-// Case 5. Price: 300-500, (Need activity) -> All Male, Age: 20-30 and 30-50
-// Case 6. Price: 300-500, (Need activity) -> All Female, Age: 20-30 and 30-50
+// Case 7. Price: 100-300, (Need activity) -> All Male, Age: 20-30 and 30-50
+// Case 8. Price: 100-300, (Need activity) -> All Female, Age: 20-30 and 30-50
 
 
+// Case 9. Price: 300-500, (Need activity) -> All Male, Age: 20-30 and 30-50
+// Case 10. Price: 300-500, (Need activity) -> All Female, Age: 20-30 and 30-50
 
-// Case 7. Price: 500-1000+, (Need activity) -> All Male, Age: 20-30 and 30-50
-// Case 8. Price: 500-1000+, (Need activity) -> All Female, Age: 20-30 and 30-50
+
+
+// Case 11. Price: 500-1000+, (Need activity) -> All Male, Age: 20-30 and 30-50
+// Case 12. Price: 500-1000+, (Need activity) -> All Female, Age: 20-30 and 30-50
 
 
 3. All cases for Male and Female, occasion graduation, age between 50-80 and 80-100
 
 
-// Case 9. Price: 50-100, (Need activity) -> All Male, Age: 50-80 and 80-100
-// Case 10. Price: 50-100, (Need activity) -> All Female, Age: 50-80 and 80-100
+// Case 13. Price: 50-100, (Need activity) -> All Male, Age: 50-80 and 80-100
+// Case 14. Price: 50-100, (Need activity) -> All Female, Age: 50-80 and 80-100
 
-// Case 11. Price: 100-300, (Need activity) -> All Male, Age: 50-80 and 80-100
-// Case 12. Price: 100-300, (Need activity) -> All Female, Age: 50-80 and 80-100
-
-
-// Case 13. Price: 300-500, (Need activity) -> All Male, Age: 50-80 and 80-100
-// Case 14. Price: 300-500, (Need activity) -> All Female, Age: 50-80 and 80-100
+// Case 15. Price: 100-300, (Need activity) -> All Male, Age: 50-80 and 80-100
+// Case 16. Price: 100-300, (Need activity) -> All Female, Age: 50-80 and 80-100
 
 
+// Case 17. Price: 300-500, (Need activity) -> All Male, Age: 50-80 and 80-100
+// Case 18. Price: 300-500, (Need activity) -> All Female, Age: 50-80 and 80-100
 
-// Case 15. Price: 500-1000+, (Need activity) -> All Male, Age: 50-80 and 80-100
-// Case 16. Price: 500-1000+, (Need activity) -> All Female, Age: 50-80 and 80-100
+
+
+// Case 19. Price: 500-1000+, (Need activity) -> All Male, Age: 50-80 and 80-100
+// Case 20. Price: 500-1000+, (Need activity) -> All Female, Age: 50-80 and 80-100
 
 
 
 3. All cases for Male and Female, occasion Eid, age between 20-30 and 30-50
 
 
-// Case 1. Price: 50-100, (Need activity) -> All Male, Age: 20-30 and 30-50
-// Case 2. Price: 50-100, (Need activity) -> All Female, Age: 20-30 and 30-50
+// Case 21. Price: 50-100, (Need activity) -> All Male, Age: 20-30 and 30-50
+// Case 22. Price: 50-100, (Need activity) -> All Female, Age: 20-30 and 30-50
 
-// Case 3. Price: 100-300, (Need activity) -> All Male, Age: 20-30 and 30-50
-// Case 4. Price: 100-300, (Need activity) -> All Female, Age: 20-30 and 30-50
-
-
-// Case 5. Price: 300-500, (Need activity) -> All Male, Age: 20-30 and 30-50
-// Case 6. Price: 300-500, (Need activity) -> All Female, Age: 20-30 and 30-50
+// Case 23. Price: 100-300, (Need activity) -> All Male, Age: 20-30 and 30-50
+// Case 24. Price: 100-300, (Need activity) -> All Female, Age: 20-30 and 30-50
 
 
+// Case 25. Price: 300-500, (Need activity) -> All Male, Age: 20-30 and 30-50
+// Case 26. Price: 300-500, (Need activity) -> All Female, Age: 20-30 and 30-50
 
-// Case 7. Price: 500-1000+, (Need activity) -> All Male, Age: 20-30 and 30-50
-// Case 8. Price: 500-1000+, (Need activity) -> All Female, Age: 20-30 and 30-50
+
+
+// Case 27. Price: 500-1000+, (Need activity) -> All Male, Age: 20-30 and 30-50
+// Case 28. Price: 500-1000+, (Need activity) -> All Female, Age: 20-30 and 30-50
 
 
 
 3. All cases for Male and Female, occasion Eid, age between 50-80 and 80-100
 
 
-// Case 9. Price: 50-100, (Need activity) -> All Male, Age: 50-80 and 80-100
-// Case 10. Price: 50-100, (Need activity) -> All Female, Age: 50-80 and 80-100
+// Case 29. Price: 50-100, (Need activity) -> All Male, Age: 50-80 and 80-100
+// Case 30. Price: 50-100, (Need activity) -> All Female, Age: 50-80 and 80-100
 
-// Case 11. Price: 100-300, (Need activity) -> All Male, Age: 50-80 and 80-100
-// Case 12. Price: 100-300, (Need activity) -> All Female, Age: 50-80 and 80-100
-
-
-// Case 13. Price: 300-500, (Need activity) -> All Male, Age: 50-80 and 80-100
-// Case 14. Price: 300-500, (Need activity) -> All Female, Age: 50-80 and 80-100
+// Case 31. Price: 100-300, (Need activity) -> All Male, Age: 50-80 and 80-100
+// Case 32. Price: 100-300, (Need activity) -> All Female, Age: 50-80 and 80-100
 
 
+// Case 33. Price: 300-500, (Need activity) -> All Male, Age: 50-80 and 80-100
+// Case 34. Price: 300-500, (Need activity) -> All Female, Age: 50-80 and 80-100
 
-// Case 15. Price: 500-1000+, (Need activity) -> All Male, Age: 50-80 and 80-100
-// Case 16. Price: 500-1000+, (Need activity) -> All Female, Age: 50-80 and 80-100
+
+
+// Case 35. Price: 500-1000+, (Need activity) -> All Male, Age: 50-80 and 80-100
+// Case 36. Price: 500-1000+, (Need activity) -> All Female, Age: 50-80 and 80-100
 
 
 
