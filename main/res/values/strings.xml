@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">SuggApp</string>
+
+
+    <!--The data source for all my spinners-->
+    <string-array name="occasion">
+        <item>Occasion</item>
+        <item>Birthday</item>
+        <item>Anniversary</item>
+        <item>Graduation</item>
+        <item>Eid_Adha</item>
+        <item>Eid_Fitr</item>
+    </string-array>
+
+    <string-array name="relationship">
+        <item>Relationship</item>
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Sister</item>
+        <item>Brother</item>
+        <item>Friend</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+
+    </string-array>
+
+    <string-array name="age_range">
+        <item>Age</item>
+        <item>20-30</item>
+        <item>30-50</item>
+        <item>50-80</item>
+        <item>80-100</item>
+    </string-array>
+
+    <string-array name="price_range">
+        <item>Price</item>
+        <item>100-300</item>
+        <item>300-500</item>
+        <item>500-1000</item>
+    </string-array>
+</resources>
